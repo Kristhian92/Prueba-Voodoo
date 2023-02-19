@@ -1,0 +1,124 @@
+.img-nav {
+    border-radius: 50%;
+    border: 5px solid gainsboro;
+    box-shadow: 2 2 2 2px gainsboro;
+
+}
+
+.nav-text {
+    font-size: 5px;
+}
+
+
+.div-contenedor-redes {
+    position: flex;
+}
+
+.div-redes {
+    position: absolute;
+    bottom: 5.5rem;
+    right: 14rem;
+    display: inline-block;
+}
+
+.div-bandera {
+    position: absolute;
+    bottom: 6rem;
+    right: 6rem;
+    display: inline-block;
+}
+
+.img-1 {
+    width: 1120px;
+    height: 600px;
+    margin-left: 115px;
+}
+
+.linea {
+    margin-top: -8px;
+    margin-left: 115px;
+    margin-right: 114px;
+    height: 80px;
+}
+
+.div-contenedor-degradado {
+    display: flex;
+    border-top: 1px solid white;
+    margin-left: 115px;
+    margin-right: 114px;
+    margin-top: -8px;
+}
+
+.div-degrado {
+    height: 300px;
+    flex: 1;
+}
+
+.p-stilos {
+    font-size: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.p-2 {
+    font-size: 14px;
+    margin-top: -20px;
+    margin-left: 38px;
+}
+
+.div-contenedor-subtitulos {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.imagen-con-texto {
+    background-image: url("/assets/medellin.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    filter: contrast(1.1);
+    margin-left: 114px;
+    height: 280px;
+    margin-right: -40px;
+    padding: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.imagen-con-texto-2 {
+    background-image: url("/assets/bucaramanga.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: white;
+    width: 500px;
+    height: 280px;
+    margin-right: 116px;
+    padding: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.redes-footer {
+    margin-bottom: -120px;
+    margin-left: -120px;
+    display: flex;
+    gap: 10px;
+}
+
+.div-certificados {
+    position: absolute;
+    bottom: 6rem;
+    right: 6rem;
+    display: inline-block;
+
+
+}
+
+.p-certificados {
+    font-size: 12px;
+    font-weight: 600;
+    color: #206b9f;
+    margin-top: -110px;
+    margin-left: -100px;
+}

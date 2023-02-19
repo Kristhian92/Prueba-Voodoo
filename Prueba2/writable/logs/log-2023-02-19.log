@@ -1,0 +1,61 @@
+CRITICAL - 2023-02-19 00:58:35 --> Invalid file: "Libros/listars.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Libros/listars.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Libros/listars', [], true)
+ 3 APPPATH\Controllers\Libros.php(9): view('Libros/listars')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 00:59:01 --> Invalid file: "Libros/listars.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Libros/listars.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Libros/listars', [], true)
+ 3 APPPATH\Controllers\Libros.php(9): view('Libros/listars')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 01:15:27 --> Undefined constant "libro"
+in APPPATH\Views\Libros\listar.php on line 27.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Libros/listar', [], true)
+ 4 APPPATH\Controllers\Libros.php(13): view('Libros/listar', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 02:35:43 --> unlink(../public/uploads/imagenJavaScript.jpg): No such file or directory
+in APPPATH\Controllers\Libros.php on line 52.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(../public/uploads/imagenJavaScript.jpg): No such file or directory', 'APPPATH\\Controllers\\Libros.php', 52)
+ 2 APPPATH\Controllers\Libros.php(52): unlink('../public/uploads/imagenJavaScript.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->borrar('2')
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 03:03:51 --> Undefined array key ""
+in APPPATH\Views\Libros\editar.php on line 14.
+ 1 APPPATH\Views\Libros\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'APPPATH\\Views\\Libros\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Libros\\editar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Libros/editar', [], true)
+ 5 APPPATH\Controllers\Libros.php(77): view('Libros/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->editar('4')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 03:35:06 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Libros.php(36): CodeIgniter\HTTP\Files\UploadedFile->move('C:\\xampp\\htdocs\\public\\uploads', '1676777706_789e22874a862cca4ddc')
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-02-19 03:49:45 --> Call to undefined method CodeIgniter\HTTP\RedirectResponse::widthInput()
+in APPPATH\Controllers\Libros.php on line 45.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Libros->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Libros))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
